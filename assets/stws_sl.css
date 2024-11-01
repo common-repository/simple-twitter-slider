@@ -1,0 +1,121 @@
+#twt-twitter-widget {
+	position: relative;
+}
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#stws-area_tw {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #00aced;
+	background-color: #fff;
+	position: fixed;
+}
+#stws_area_tw2 {
+	overflow: hidden;
+	text-align: left;
+}
+#stws-area_tw img.stws_outerimg {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#stws-area_tw iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.stws_main > h2.top-style {
+	background: #00aced none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-family: SourceSansPro-Semibold;
+    font-size: 25px !important;
+    font-weight: normal;
+    margin: 25px 0 0;
+    padding: 15px 0 !important;
+    text-align: center;
+	border: 1px solid #000;
+}
+.stws_main .stws_submit {
+	text-align: center;
+	width: 520px;
+}
+.stws_main .stws_submit .button-success {
+	background: #00aced none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	border: 1px solid #000;
+	box-shadow: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.stws_main th {
+	color: #00aced;
+	font-size: 15px;
+}
+.stws_main h2 {
+	color: #00aced;
+	font-size: 26px;
+}
+.stws_main .form-table input {
+	background: #fff;
+	border: 1px solid #00aced;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.stws_main select {
+	border: 1px solid #00aced;
+	border-radius: 3px;
+}
+#stws-area_tw #stw_link:hover{
+	position:initial;
+}
+.stws_open {
+    display: block;
+    visibility: visible;
+}
+	img.stws_outerimg {
+    max-width: inherit;
+	}
+.error_sm_tw {
+    color: #f00;
+    padding: 20px 10px 10px;
+	text-align: center;
+}
+
+.stws_main {
+    background: #fff none repeat scroll 0 0;
+    width: 44%;
+	padding-bottom: 15px;
+}
+.stws_main .form-table input[type=radio] {
+    width:auto;
+}
+form.stws_frm {
+       padding: 0 10px 0 20px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #000 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    outline: medium none !important;
+    transition: all 1s ease 0s;
+}
